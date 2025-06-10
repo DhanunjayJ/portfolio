@@ -1,0 +1,100 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+header {
+    background-color: #222;
+    color: White;
+    padding:20px;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    gap: 100px
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+button {
+margin:15px;
+padding:10px;
+font-family: "Montserrat", sans-serif;
+background-color: transparent;
+color: white;
+border-radius: 50px;
+border-color: white;
+}
+
+button:hover{
+    background-color: rgb(225, 225, 225);
+    color: black;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+nav {
+    margin : 20px;
+    padding:10px;
+    text-align:right;
+}
+nav a {
+    margin: 0 15px;
+    color: #ddd;
+    text-decoration:none;
+}
+
+nav a:hover {
+    color:#00ffd5;
+    transition: 1s ease;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+background: #333;
+color:white;
+text-align: center;
+padding:15px;
+}
+
+@media (max-width:600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .container{
+        display: block;
+        margin: 10px 0;
+    }
+    .item{
+        margin:30px 0;
+    }
+}
