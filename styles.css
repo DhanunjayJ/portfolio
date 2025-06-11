@@ -42,6 +42,35 @@ margin-left: auto;
     color: white;
 }
 
+.dark header {
+  background-color: #1f1f1f;
+  color: white;
+}
+.dark .project-card {
+  background: #2c2c2c;
+  color: white;
+}
+
+button {
+  width: 100%;
+  max-width: 200px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+
 html {
     scroll-behavior: smooth;
   }
